@@ -15,16 +15,6 @@ class Program
         // Глобально доступный список вопросов
         Question[] questions = {
             new Question {
-                question = "В каком году был основан Волгоградский государственный университет ?",
-                options = new string[] { "1980", "1991", "1875" },
-                correct_answer = 0
-            },
-            new Question {
-                question = "Кто был первым ректором Волгоградского государственного университета?",
-                options = new string[] { "Лосев Александр Георгиевич", "Калинина Алла Эдуардовна", "Загорулько Максим Матвеевич" },
-                correct_answer = 2
-            },
-            new Question {
                 question = "На сколько студентов рассчитано общежитие ВолГу?",
                 options = new string[] { "720", "1085", "2105" },
                 correct_answer = 1
